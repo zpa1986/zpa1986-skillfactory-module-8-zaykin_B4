@@ -57,7 +57,7 @@ def request_data():
         "email": email
     }
     #возвращаем созданного пользователя
-    return
+    return user
 
 def valid_email(email):
     if email.find(".", email.find("@")) == -1 or email.find("@") == -1:
